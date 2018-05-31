@@ -1,0 +1,29 @@
+SET SEARCH_PATH TO nombredeesquema;
+
+Eliminar esquema:
+SET SEARCH_PATH TO nombredeesquema;
+
+DROP SCHEMA nombreesquema CASCADE
+
+
+insertar
+insert into Departamento (id_depto,nomb_depto) values (08,'La Paz'),
+
+eliminar
+DELETE FROM empleado WHERE id_tienda =1
+DELETE FROM tienda WHERE id_tienda =1
+
+delete from empleado where id_empleado=2 and id_tienda=1
+
+actualizar
+UPDATE empleado 
+SET (nombres, apellidos, fecha_nacimiento, fecha_contratacion,salario,id_tienda)= ('Jonatan','Lopez','1991-09-21', '2013-06-01',12000,21)
+WHERE id_empleado=2
+
+
+
+consulta
+SQL
+insert into cuentas."cliente" values ('002','daniel','perez');}
+
+select * from cuentas."cliente";
